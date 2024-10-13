@@ -1,5 +1,5 @@
 body {
-    background-color: #3ac4a6;
+    background-color: #6495ed;
 }
 
 .logo {
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #E7C24F;
+    background-color: #4169e1;
 }
 
 #content {
@@ -16,18 +16,18 @@ header {
 }
 
 nav a:hover {
-    background-color: bisque;
-    color: #3ac4a6;
+    background-color: #773f1a;
+    color: #fffdd0;
 }
 nav a {
     text-align: center;
-    background-color: rgb(225, 104, 201);
-    color: #f5f246;
+    background-color: #fffdd0;
+    color: #773f1a;
     text-decoration: none;
 }
 
 .home-title {
-    color: #f5f246;
+    color: #773f1a;
 }
 
 #hero-img {
@@ -35,7 +35,7 @@ nav a {
 }
 
 #hero-msg h4 {
-    color: rgb(225, 104, 201);
+    color: #fffdd0;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -47,18 +47,22 @@ nav a {
 }
 
 .book, .join {
-    background-color: #E7C24F;
-    color: #f5f246;
+    background-color: #fffdd0;
+    color: #773f1a;
     text-decoration: none;
 }
 
 .book:hover, .join:hover {
-    background-color: bisque;
-    color: rgb(225, 104, 201);
+    background-color: #773f1a;
+    color: #fffdd0;
 }
 
 main section {
     text-align: center;
+}
+
+.home-grid h2 {
+    color: #773f1a;
 }
 
 .icon {
@@ -67,33 +71,33 @@ main section {
 
 #background {
     height: 725px;
-    background-color: rgb(225, 104, 201);
+    background-color: #4169e1;
 }
 
 .msg {
-    background-color: #E7C24F;
+    background-color: #4169e1;
 }
 
 .msg h2 {
-    color: #3ac4a6;
+    color: #773f1a;
 }
 
 .msg p {
-    color: rgb(225, 104, 201);
+    color: #fffdd0;
 }
 
 footer {
-    background-color: #E7C24F;
-    color: #f5f246;
+    background-color: #4169e1;
+    color: #fffdd0;
 }
 
 footer a {
-    color: rgb(225, 104, 201);
+    color: #773f1a;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #3ac4a6;
+    color: #fffdd0;
 }
 
 footer p {
