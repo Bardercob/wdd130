@@ -71,11 +71,11 @@ main section {
 }
 
 .msg {
-    color: #f5f246;
+    background-color: #E7C24F;
 }
 
 .msg h2 {
-    color: #E7C24F;
+    color: #3ac4a6;
 }
 
 .msg p {
