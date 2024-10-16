@@ -1,0 +1,39 @@
+#content {
+    max-width: 3200px;
+    margin: 0 auto;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.desk {
+    margin: auto 120px;
+    width: 550px;
+    border-radius: 50%;
+}
+
+.graphic {
+    margin: 0 120px;
+    width: 550px;
+    border-radius: 50%;
+    
+}
+
+.person {
+    margin: 0 120px;
+    width: 550px;
+    border-radius: 50%;
+}
+
+main {
+    background-color: gray;
+    padding: 100px;
+    text-align: center;
+}
+
+main img {
+    border: solid;
+    border-width: 40px;
+    border-color: #5a5e67;
+}
