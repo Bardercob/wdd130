@@ -1,5 +1,6 @@
 #content {
-    max-width: 3200px;
+    background-color: gray;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -8,32 +9,31 @@
 }
 
 .desk {
-    margin: auto 120px;
-    width: 550px;
+    margin: 0 30px;
+    width: 150px;
     border-radius: 50%;
 }
 
 .graphic {
-    margin: 0 120px;
-    width: 550px;
+    margin: 0 30px;
+    width: 150px;
     border-radius: 50%;
     
 }
 
 .person {
-    margin: 0 120px;
-    width: 550px;
+    margin: 0 30px;
+    width: 150px;
     border-radius: 50%;
 }
 
 main {
-    background-color: gray;
-    padding: 100px;
+    padding: 20px;
     text-align: center;
 }
 
 main img {
     border: solid;
-    border-width: 40px;
-    border-color: #5a5e67;
+    border-width: 9px;
+    border-color: #353638;
 }
