@@ -1,0 +1,30 @@
+body {
+    background-color: orange;
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: space-between;
+    list-style-type: none;
+}
+
+nav {
+    
+}
+
+li {
+    background-color: black;
+    color: greenyellow;
+    width: 150px;
+    height: 10px;
+    padding: 60px;
+    border-left: 20px solid blueviolet;
+    border-top: 20px solid blueviolet;
+
+}
+
+li:hover {
+    background-color: orange;
+}
