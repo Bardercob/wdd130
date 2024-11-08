@@ -1,9 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Hanalei&display=swap');
+
+:root {
+    --heading-font: Hanalei;
+    --paragraph-font: Gabriela, Helvetica, sans-serif;
+}
+
 body {
     background-color: #6495ed;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-link {
+    padding-top: 5px;
 }
 
 .logo {
     width: 80px;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h1, h2, h3 {
+    font-family:  var(--heading-font);
+    
+    
+}
+h4, h5, h6 {
+    font-family: var(--paragraph-font);
 }
 
 header {
@@ -24,10 +54,12 @@ nav a {
     background-color: #fffdd0;
     color: #773f1a;
     text-decoration: none;
+    padding: 35px   ;
 }
 
 .home-title {
     color: #773f1a;
+    margin-top: 10px;
 }
 
 #hero-img {
@@ -50,6 +82,9 @@ nav a {
     background-color: #fffdd0;
     color: #773f1a;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -59,14 +94,24 @@ nav a {
 
 main section {
     text-align: center;
+    box-sizing: border-box;
 }
 
 .home-grid h2 {
     color: #773f1a;
 }
 
+.card-img {
+    border: 10px solid #4169e1;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card, .camping card, .rapids-card {
+    margin: 200px 0;
 }
 
 #background {
@@ -76,6 +121,7 @@ main section {
 
 .msg {
     background-color: #4169e1;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -84,11 +130,14 @@ main section {
 
 .msg p {
     color: #fffdd0;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #4169e1;
     color: #fffdd0;
+    padding: 25px 30px;
+    margin-top: 50px;
 }
 
 footer a {
@@ -106,4 +155,7 @@ footer p {
 
 footer p:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
